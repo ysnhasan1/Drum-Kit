@@ -17,11 +17,6 @@ Feel free to share your observations with me.
 <img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/7bed1859-6735-4086-95ff-6c47dd250dbc"><br />
 ---
 
-### ***You can watch the video by turning on the sound***
-https://github.com/ysnhasan1/Drum-Kit/assets/102024926/1b165b7b-5f67-4659-96d0-c39f12ce5222
-
----
-
 ### ***Responsive to Smaller Screen Size (Phone View)***
 <img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/696c9ce0-c0fd-4162-8f36-6cf42ee72ac4" height="500"><br />
 ---
