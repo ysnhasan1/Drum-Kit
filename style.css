@@ -1,0 +1,104 @@
+/* Drum Kit (style.css) */
+
+body {
+  text-align: center;
+  background-color: silver;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 100px;
+  color: azure;
+  text-shadow: 5px 5px purple;
+}
+
+.set {
+  margin: 100px auto;
+}
+
+.w {
+  background-image: url("./assets/tom1.png");
+}
+
+.a {
+  background-image: url("assets/tom2.png");
+}
+
+.s {
+  background-image: url("assets/tom3.png");
+}
+
+.d {
+  background-image: url("./assets/tom4.png");
+}
+
+.j {
+  background-image: url("./assets/snare.png");
+}
+
+.k {
+  background-image: url("./assets/crash.png");
+}
+
+.l {
+  background-image: url("./assets/kick.png");
+}
+
+.pressed {
+  box-shadow: 0 5px 5px 0 black;
+  opacity: 0.3;
+}
+
+.drum {
+  outline: thick double palegoldenrod;
+  border: 5px solid purple;
+  font-size: 80px;
+  font-family: cursive;
+  font-weight: bold;
+  color: orange;
+  text-shadow: 3px 3px purple;
+  border-radius: 30px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+footer {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+/* Media Queries */
+@media (max-width: 1250px) {
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .drum {
+    font-size: 50px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .drum {
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
