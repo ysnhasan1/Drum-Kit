@@ -87,49 +87,49 @@ function myPressFunc(event) {
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "a" || pressedKey === "A") {
         sound = new Audio("./sounds/tom-2.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "s" || pressedKey === "S") {
         sound = new Audio("./sounds/tom-3.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "d" || pressedKey === "D") {
         sound = new Audio("./sounds/tom-4.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "j" || pressedKey === "J") {
         sound = new Audio("./sounds/snare.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "k" || pressedKey === "K") {
         sound = new Audio("./sounds/crash.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
     else if (pressedKey === "l" || pressedKey === "L") {
         sound = new Audio("./sounds/kick-bass.mp3"); // Creating a new object
         sound.play();
 
         // Calling the function for animation
-        myAnimationFuncForClickForPress(pressedKey);
+        myAnimationFuncForPress(pressedKey);
     }
 
 } // end-myPressFunc
@@ -160,7 +160,7 @@ function myAnimationFuncForClick(textContentOfButton) {
 
 
 // Creating the function
-function myAnimationFuncForClickForPress(keyValue) {
+function myAnimationFuncForPress(keyValue) {
     document.querySelector("." + keyValue).classList.add("pressed");
 
     setTimeout(function () {
