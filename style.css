@@ -2,14 +2,13 @@
 
 body {
   text-align: center;
-  background-color: silver;
+  background-color: white;
 }
 
 h1 {
-  font-family: cursive;
+  font-family: monospace;
   font-size: 100px;
-  color: azure;
-  text-shadow: 5px 5px purple;
+  color: black;
 }
 
 .set {
@@ -45,30 +44,24 @@ h1 {
 }
 
 .pressed {
-  box-shadow: 0 5px 5px 0 black;
-  opacity: 0.3;
+  box-shadow: 0 10px 10px 1px black;
+  opacity: 0.4;
 }
 
 .drum {
-  outline: thick double palegoldenrod;
-  border: 5px solid purple;
-  font-size: 80px;
-  font-family: cursive;
-  font-weight: bold;
-  color: orange;
-  text-shadow: 3px 3px purple;
-  border-radius: 30px;
   display: inline-block;
   width: 150px;
   height: 150px;
   margin: 10px;
+  font-size: 100px;
+  color: orange;
+  border: 5px solid purple;
+  border-radius: 20px;
 }
 
 footer {
-  color: white;
-  font-family: cursive;
-  font-size: 20px;
-  border: 1px solid black;
+  color: black;
+  font-size: 25px;
 }
 
 /* Media Queries */
@@ -76,11 +69,11 @@ footer {
 @media (max-width: 1250px) {
 
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .drum {
-    font-size: 50px;
+    font-size: 80px;
     width: 120px;
     height: 120px;
   }
@@ -90,18 +83,12 @@ footer {
 
   h1 {
     font-size: 50px;
-    text-shadow: none;
   }
 
   .drum {
-    font-size: 40px;
+    font-size: 45px;
     width: 80px;
     height: 80px;
-  }
-
-  footer {
-    font-family: monospace;
-    font-weight: bold;
   }
 }
 
@@ -111,12 +98,7 @@ footer {
     font-size: 30px;
   }
 
-  .set {
-    margin-bottom: 35px;
-  }
-
   footer {
     font-size: 10px;
-    border: none;
   }
 }
