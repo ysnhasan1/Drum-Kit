@@ -61,7 +61,6 @@ h1 {
   display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: center;
   margin: 10px;
 }
 
@@ -73,6 +72,7 @@ footer {
 }
 
 /* Media Queries */
+
 @media (max-width: 1250px) {
 
   h1 {
@@ -89,7 +89,8 @@ footer {
 @media (max-width: 600px) {
 
   h1 {
-    font-size: 30px;
+    font-size: 50px;
+    text-shadow: none;
   }
 
   .drum {
@@ -97,8 +98,20 @@ footer {
     width: 80px;
     height: 80px;
   }
+}
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .set {
+    margin-bottom: 35px;
+  }
 
   footer {
-    font-size: 12px;
+    font-size: 11px;
+    border: none;
   }
 }
