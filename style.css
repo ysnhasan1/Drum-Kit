@@ -98,6 +98,11 @@ footer {
     width: 80px;
     height: 80px;
   }
+
+  footer {
+    font-family: monospace;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 480px) {
