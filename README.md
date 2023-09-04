@@ -14,7 +14,9 @@ Feel free to share your observations with me.
 https://ysnhasan1.github.io/Drum-Kit/
 
 ## Original Screen Size
-<img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/7bed1859-6735-4086-95ff-6c47dd250dbc"><br />
+<img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/af63f4c8-65d6-4959-baa4-3fa89b06e6ad"><br />
 
 ## Responsive to Smaller Screen Size (Phone View)
-<img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/696c9ce0-c0fd-4162-8f36-6cf42ee72ac4" height="500">
+<div align="center">
+<img src="https://github.com/ysnhasan1/Drum-Kit/assets/102024926/e00e06ed-d704-4ac1-a331-60df2f12c1f8" height="500">
+</div>
